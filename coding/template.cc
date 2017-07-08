@@ -11,6 +11,6 @@ using namespace std;
 #define pb push_back
 
 int main() {
-  std::ios::sync_with_stdio(false);
+  std::ios::sync_with_stdio(false); cin.tie(0);
   return 0;
 }
