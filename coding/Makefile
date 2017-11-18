@@ -13,6 +13,7 @@ endif
 	$(CC) $(CC_FLAGS) $< -o $@
 
 clean:
-	find . -not -iname "*\.*" -not -iname "Makefile" -delete
-	find . -iname "*.in*" -delete
+	find . -not -iname "Makefile" -not -iname "*.cc" -delete
+
+clean-all:
 	find . -not -iname "Makefile" -not -iname "template.cc" -delete
