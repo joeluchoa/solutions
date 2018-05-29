@@ -1,5 +1,5 @@
 CC = g++-8
-CC_FLAGS = -Wall -Wextra -Werror -Wuninitialized -std=c++11 -O2 -lm
+CC_FLAGS = -Wall -Wuninitialized -std=c++11 -O2 -lm
 
 all: template.cc $(run) $(shell echo $(run) | sed 's/\([a-z0-9]*\).*/\1/')
 ifneq ($(run),)
