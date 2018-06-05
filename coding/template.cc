@@ -9,6 +9,7 @@ using namespace std;
 #define ms(m,v) memset((m), (v), sizeof (m))
 #define mp make_pair
 #define pb push_back
+#define endl "\n"
 
 int main() {
   std::ios::sync_with_stdio(false); cin.tie(0);
