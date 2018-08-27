@@ -1,0 +1,1 @@
+../../codeforces/2018_USP-ICMC/B2.cc

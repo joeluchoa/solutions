@@ -1,0 +1,1 @@
+../../spoj/permpatt.cc
