@@ -1,1 +1,0 @@
-../../codeforces/127/D.cc

@@ -1,1 +1,0 @@
-../../spoj/strmatch.cc

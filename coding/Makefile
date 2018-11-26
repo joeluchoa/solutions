@@ -1,4 +1,4 @@
-CC = g++-8
+CC = g++-6
 CC_FLAGS = -Wall -std=c++11 -O2 -lm
 
 all: .template.cc $(run) $(shell echo $(run) | sed 's/\([a-z0-9]*\).*/\1/')
